@@ -1,0 +1,25 @@
+# Core
+numpy>=1.26,<2.0
+pandas>=2.0
+scipy>=1.11
+
+# Data
+yfinance>=0.2.36
+polygon-api-client>=1.13
+
+# Technical analysis
+ta>=0.11
+
+# ML  (tensorflow 2.15 requires Python 3.9-3.11)
+scikit-learn>=1.4
+tensorflow==2.15.0
+
+# Broker
+alpaca-trade-api>=3.0
+
+# Database
+supabase>=2.0.0
+
+# Dashboard
+streamlit>=1.33
+streamlit-autorefresh>=1.0
