@@ -34,7 +34,7 @@ def bot_is_running(metrics):
     if not t: return False
     try:
         updated = datetime.datetime.fromisoformat(t.replace("Z", ""))
-        return (datetime.datetime.utcnow() - updated).total_seconds() < 360
+        return (datetime.datetime.utcnow() - updated).total_seconds() < 900
     except Exception:
         return False
 
